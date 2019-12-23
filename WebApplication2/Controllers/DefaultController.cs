@@ -11,6 +11,7 @@ namespace WebApplication2.Controllers
         // GET: Default
         public ActionResult Index()
         {
+            ViewBag.a = "abc";
             return View();
         }
     }
