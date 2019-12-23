@@ -12,6 +12,7 @@ namespace WebApplication2.Controllers
         public ActionResult Index()
         {
             ViewBag.a = "abc";
+            ViewBag.s = "sdgsdfv";
             return View();
         }
     }
